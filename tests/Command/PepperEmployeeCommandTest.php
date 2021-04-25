@@ -1,12 +1,12 @@
 <?php
 namespace App\Tests\Command;
 
-use App\Command\CreateUserCommand;
+use App\Command\PepperEmployeeCommand;
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Symfony\Component\Console\Tester\CommandTester;
 
-class CreateUserCommandTest extends KernelTestCase
+class PepperEmployeeCommandTest extends KernelTestCase
 {
     public function testExecute()
     {

@@ -6,8 +6,8 @@ require dirname(__DIR__).'/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 
-use App\Command\CreateUserCommand;
+use App\Command\PepperEmployeeCommand;
 
 $app = new Application();
-$app->add(new CreateUserCommand());
+$app->add(new PepperEmployeeCommand());
 $app->run();
